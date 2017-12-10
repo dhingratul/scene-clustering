@@ -20,4 +20,4 @@ Clustering scenes based on images
 3. The produced distanceM is fed into `utils.isSimilar` to generate a dictionary with images similar based on the average distance and a user provided threshold(default = 5)
 4. Once the dictionary is obtained, a clustering operation is executed in `utils.cluster` which clusters it into different clusters and outputs a dictionary with different cluster assignments. 
 5. A tiebreaking operation is also executed in `utils.tieBreak` in the case an image belongs to two different clusters. This is done based on average distance from the image to all the other images in the cluster, the bigger value wins the tie.
-6. The output is dumped as a .json file in src/
+6. The output is dumped as a .json file in out/
