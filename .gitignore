@@ -102,6 +102,7 @@ ENV/
 
 # Data directory
 /data/*
+/out/*
 
 # PDF
 *.pdf
