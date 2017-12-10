@@ -11,8 +11,10 @@ Clustering scenes based on images
 
 # Run
 1. Clone the repository
-2. cd into src/ directory
-2. `python run.py` 
+2. mkdir data/ and put images in the directory
+3. mkdir out/
+4. cd into src/ directory
+5. `python run.py` 
 
 # Note:
 1. The 'distance' measure betwen the pairwise images is computed based on number of good matches obtained from SIFT features and FLANN matcher(`utils.getDistanceM`), the higher the measure, more closely the image is related
